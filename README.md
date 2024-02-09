@@ -24,7 +24,7 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 
     * **Regression:** The set of values is ordered and infinite.
 
-        **Example:** Infer the price of a car based on data.
+        **Example:** Infer the price (Y) of a car based on data features (X).
 
         <figure>
             <img src="https://github.com/ryann-arruda/machine-learning/assets/53544629/8c2e1a78-ab1e-437d-bfd4-5b9e8fca780b" alt="Regression">
