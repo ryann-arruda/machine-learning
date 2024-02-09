@@ -18,7 +18,8 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 
         <figure>
             <img src="https://github.com/ryann-arruda/machine-learning/assets/53544629/22561e82-5570-42a4-a6b9-22110df00299" alt="Classification">
+            
             <figcaption><strong>Fonte: </strong>https://www.javatpoint.com/classification-algorithm-in-machine-learning</figcaption>
         </figure>
-        
+
     * **Regression:** The set of values is ordered and infinite.
