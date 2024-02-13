@@ -31,3 +31,13 @@ Another possible definition for **Machine Learning** is an algorithm that respon
             <br>
             <figcaption><strong>Fonte: </strong>https://www.iguazio.com/glossary/regression/</figcaption>
         </figure>
+
+* **Unsupervised Learning:** The learning model receives a set of inputs made up of data and will attempt to create clusters based on the characteristics of the data.
+
+    **Example:** Recognize images of cars (cluster 1), motorcycles (cluster 2) and planes (cluster 3) by grouping them into groups.
+
+    <figure>
+        <img src="https://github.com/ryann-arruda/machine-learning/assets/53544629/a4856d27-bcd0-4a0a-b607-476d919b95fd" alt="Clustering">
+        <br>
+        <figcaption><strong>Fonte: </strong>https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/tutorial.html</figcaption>
+    </figure>
