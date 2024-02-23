@@ -44,4 +44,4 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 
 * **Semi-supervised Learning:** The learning model receives a set of input data with and without labels. Then unsupervised learning will be applied to group the data according to characteristics. Finally, supervised learning will be applied in order to expand the labels present in each group to all elements in that group.
 
-    **Example:**A typical example of semi-supervised learning occurs in document classification.
+    **Example:** A typical example of semi-supervised learning occurs in document classification.
