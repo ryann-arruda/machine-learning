@@ -45,3 +45,7 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 * **Semi-supervised Learning:** The learning model receives a set of input data with and without labels. Then unsupervised learning will be applied to group the data according to characteristics. Finally, supervised learning will be applied in order to expand the labels present in each group to all elements in that group.
 
     **Example:** A typical example of semi-supervised learning occurs in document classification.
+
+* **Reinforcement Learning:** The model will learn through trial and error, seeking to maximize its performance. In this learning process, there are rewards if the model achieves its objectives and penalties if it takes any action that reduces its performance.
+
+    **Example:** A common scenario where this learning approach is used is in games, for example. In chess, if you lose a piece, you receive a penalty, and if you capture the enemy piece, you receive a reward. So, the more pieces you capture, the more rewards you will receive.
