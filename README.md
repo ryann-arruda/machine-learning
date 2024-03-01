@@ -49,3 +49,11 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 * **Reinforcement Learning:** The model will learn through trial and error, seeking to maximize its performance. In this learning process, there are rewards if the model achieves its objectives and penalties if it takes any action that reduces its performance.
 
     **Example:** A common scenario where this learning approach is used is in games, for example. In chess, if you lose a piece, you receive a penalty, and if you capture the enemy piece, you receive a reward. So, the more pieces you capture, the more rewards you will receive.
+
+After the brief explanation given above about Machine Learning, the next sections will address each learning and some techniques used in each .ipynb file linked to that section.
+
+## Supervised Learning
+
+### Classification
+
+Before you start programming, you need to understand what the Dataset is about and what information it contains in each column, as well as how much they contribute to the problem.
