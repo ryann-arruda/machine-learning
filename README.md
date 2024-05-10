@@ -50,7 +50,30 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 
     **Example:** A common scenario where this learning approach is used is in games, for example. In chess, if you lose a piece, you receive a penalty, and if you capture the enemy piece, you receive a reward. So, the more pieces you capture, the more rewards you will receive.
 
-After the brief explanation given above about Machine Learning, the next sections will address each learning and some techniques used in each .ipynb file linked to that section.
+After the brief explanation given above about Machine Learning, the next sections will explain the attributes of the dataset and will cover each learning and some techniques used in each .ipynb file linked to this section.
+
+## Explanation of Dataset Attributes
+
+* id: instance identifier;
+* diagnosis:
+    1. M = malignant;
+    2. B = benign.
+* radius: average of the distances from the center to the perimeter points. This attribute can be divided into three possible values, namely:
+    1. radius_mean: average of the "radius" feature calculated for each image;
+    2. radius_se: standard error of the "radius" feature calculated for each image;
+    3. radius_worst: mean of the three largest values of the "radius" feature calculated for each image.
+* texture: standard deviation of gray-scale values. This attribute can be divided into three possible values, namely:
+    1. texture_mean: average of the "texture" feature calculated for each image;
+    2. texture_se: standard error of the "texture" feature calculated for each image;
+    3. texture_worst: mean of the three largest values of the "texture" feature calculated for each image.
+
+    **OBS.:** Gray-scale indicates that different shades of gray are used to represent different densities of breast tissue.
+* perimeter:
+    1. perimeter_mean: average of the "perimeter" feature calculated for each image;
+    2. perimeter_se: standard error of the "perimeter" feature calculated for each image;
+    3. perimeter_worst: mean of the three largest values of the "perimeter" feature calculated for each image.
+
+**OBS.:** It should be borne in mind that the nucleus of a cell has different and uniform shapes.
 
 ## Supervised Learning
 
