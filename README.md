@@ -54,24 +54,72 @@ After the brief explanation given above about Machine Learning, the next section
 
 ## Explanation of Dataset Attributes
 
-* id: instance identifier;
-* diagnosis:
+* **id**: instance identifier;
+
+* **diagnosis**:
     1. M = malignant;
     2. B = benign.
-* radius: average of the distances from the center to the perimeter points. This attribute can be divided into three possible values, namely:
+
+* **radius**: average of the distances from the center to the perimeter points. This attribute can be divided into three possible values, namely:
     1. radius_mean: average of the "radius" feature calculated for each image;
     2. radius_se: standard error of the "radius" feature calculated for each image;
     3. radius_worst: mean of the three largest values of the "radius" feature calculated for each image.
-* texture: standard deviation of gray-scale values. This attribute can be divided into three possible values, namely:
+
+* **texture**: standard deviation of gray-scale values. This attribute can be divided into three possible values, namely:
     1. texture_mean: average of the "texture" feature calculated for each image;
     2. texture_se: standard error of the "texture" feature calculated for each image;
     3. texture_worst: mean of the three largest values of the "texture" feature calculated for each image.
 
     **OBS.:** Gray-scale indicates that different shades of gray are used to represent different densities of breast tissue.
-* perimeter:
+
+* **perimeter**: indicates the total length of the edge of the cell nucleus. This attribute can be divided into three possible values, namely:
     1. perimeter_mean: average of the "perimeter" feature calculated for each image;
     2. perimeter_se: standard error of the "perimeter" feature calculated for each image;
     3. perimeter_worst: mean of the three largest values of the "perimeter" feature calculated for each image.
+
+* **area**: indicates the measurement of the surface occupied by the cell nucleus. This attribute can be divided into three possible values, namely:
+    1. area_mean: average of the "area" feature calculated for each image;
+    2. area_se: standard error of the "area" feature calculated for each image;
+    3. area_worst: mean of the three largest values of the "area" feature calculated for each image.    
+
+* **smoothness**: it indicates the local variation in the lengths of the rays, that is, it allows us to understand how smooth or irregular the surface of the cell nucleus is. This attribute can be divided into three possible values, namely:
+    1. smoothness_mean: average of the "smoothness" feature calculated for each image;
+    2. smoothness_se: standard error of the "smoothness" feature calculated for each image;
+    3. smoothness_worst: mean of the three largest values of the "smoothness" feature calculated for each image. 
+
+* **compactness**: this attribute is represented by the following mathematical expression:
+
+$$compactness = \frac{perimeter^2}{area - 1.0}$$
+
+It indicates how compacted the cell nucleus is, that is, how regular or irregular the surface of the cell nucleus is. This attribute can be divided into three possible values, namely:
+
+1. smoothness_mean: average of the "smoothness" feature calculated for each image;
+2. smoothness_se: standard error of the "smoothness" feature calculated for each image;
+3. smoothness_worst: mean of the three largest values of the "smoothness" feature calculated for each image. 
+
+* **concavity**: it indicates the severity of the concave portions of the contour, that is, how accentuated or deep the concave parts of the cell nucleus are. This attribute can be divided into three possible values, namely:
+
+    1. concavity_mean: average of the "concavity" feature calculated for each image;
+    2. concavity_se: standard error of the "concavity" feature calculated for each image;
+    3. concavity_worst: mean of the three largest values of the "concavity" feature calculated for each image. 
+
+* **concave points**: number of concave portions of the contour. This attribute can be divided into three possible values, namely:
+
+    1. concave points_mean: average of the "concave points" feature calculated for each image;
+    2. concave points_se: standard error of the "concave points" feature calculated for each image;
+    3. concave points_worst: mean of the three largest values of the "concave points" feature calculated for each image. 
+
+* **symmetry**: it indicates how symmetrical the contour of the cell nucleus is. This attribute can be divided into three possible values, namely:
+
+    1. symmetry_mean: average of the "symmetry" feature calculated for each image;
+    2. symmetry_se: standard error of the "symmetry" feature calculated for each image;
+    3. symmetry_worst: mean of the three largest values of the "symmetry" feature calculated for each image. 
+
+* **fractal dimension**: it indicates a measure of the complexity of the contour shape of the cell nucleus. Fractal dimension is calculated through a technique called “coastal approximation,” which is an approach to measuring the complexity of a line or contour. The formula for calculating the fractal dimension can be seen below.
+
+$$fractal \, dimension = ``coastline \, approximation" - 1$$
+
+In general terms, the greater the fractal dimension, the more complex and irregular the cell nucleus.
 
 **OBS.:** It should be borne in mind that the nucleus of a cell has different and uniform shapes.
 
@@ -79,4 +127,4 @@ After the brief explanation given above about Machine Learning, the next section
 
 ### Classification
 
-Before you start programming, you need to understand what the Dataset is about and what information it contains in each column, as well as how much they contribute to the problem.
+After understanding what each attribute in our dataset means, we now have to explore it in order to understand the statistical distribution and identify which attributes will be relevant for the classification step.
