@@ -128,3 +128,5 @@ In general terms, the greater the fractal dimension, the more complex and irregu
 ### Classification
 
 After understanding what each attribute in our dataset means, we now have to explore it in order to understand the statistical distribution and identify which attributes will be relevant for the classification step.
+
+#### Dataset Exploration
