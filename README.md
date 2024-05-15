@@ -117,7 +117,7 @@ It indicates how compacted the cell nucleus is, that is, how regular or irregula
 
 * **fractal dimension**: it indicates a measure of the complexity of the contour shape of the cell nucleus. Fractal dimension is calculated through a technique called “coastal approximation,” which is an approach to measuring the complexity of a line or contour. The formula for calculating the fractal dimension can be seen below.
 
-$$fractal_dimension = coastline_approximation - 1$$
+$$fractal \_ dimension = coastline \_ approximation - 1$$
 
 In general terms, the greater the fractal dimension, the more complex and irregular the cell nucleus.
 
