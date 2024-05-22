@@ -89,7 +89,7 @@ After the brief explanation given above about Machine Learning, the next section
 
 * **compactness**: this attribute is represented by the following mathematical expression:
 
-$$compactness = \frac{perimeter^2}{area - 1.0}$$
+`$$`compactness = \frac{perimeter^2}{area - 1.0}`$$`
 
 It indicates how compacted the cell nucleus is, that is, how regular or irregular the surface of the cell nucleus is. This attribute can be divided into three possible values, namely:
 
@@ -117,7 +117,7 @@ It indicates how compacted the cell nucleus is, that is, how regular or irregula
 
 * **fractal dimension**: it indicates a measure of the complexity of the contour shape of the cell nucleus. Fractal dimension is calculated through a technique called “coastal approximation,” which is an approach to measuring the complexity of a line or contour. The formula for calculating the fractal dimension can be seen below.
 
-$$fractal \_ dimension = coastline \_ approximation - 1$$
+`$$`fractal\_dimension = coastline\_approximation - 1`$$`
 
 In general terms, the greater the fractal dimension, the more complex and irregular the cell nucleus.
 
@@ -127,6 +127,6 @@ In general terms, the greater the fractal dimension, the more complex and irregu
 
 ### Classification
 
-After understanding what each attribute in our dataset means, we now have to explore it in order to understand the statistical distribution and identify which attributes will be relevant for the classification step.
+After understanding what each attribute of our dataset means, we will now go through the Pre-Processing, Choosing a Target Attribute, Dimensionality Reduction (if necessary), Supervised Learning and finally Final Considerations sections.
 
-#### Dataset Exploration
+The previously mentioned sections will be included in the Google Colab notebook [machine-learning-classification.ipynb](https://github.com/ryann-arruda/machine-learning/blob/main/machine_learning_classification.ipynb). To see them, enter the notebook.
