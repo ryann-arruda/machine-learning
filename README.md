@@ -89,7 +89,7 @@ After the brief explanation given above about Machine Learning, the next section
 
 * **compactness**: this attribute is represented by the following mathematical expression:
 
-`$$`compactness = \frac{perimeter^2}{area - 1.0}`$$`
+$$compactness = \frac{perimeter^2}{area - 1.0}$$
 
 It indicates how compacted the cell nucleus is, that is, how regular or irregular the surface of the cell nucleus is. This attribute can be divided into three possible values, namely:
 
@@ -117,7 +117,7 @@ It indicates how compacted the cell nucleus is, that is, how regular or irregula
 
 * **fractal dimension**: it indicates a measure of the complexity of the contour shape of the cell nucleus. Fractal dimension is calculated through a technique called “coastal approximation,” which is an approach to measuring the complexity of a line or contour. The formula for calculating the fractal dimension can be seen below.
 
-`$$`fractal\_dimension = coastline\_approximation - 1`$$`
+$$fractal\_dimension = coastline\_approximation - 1$$
 
 In general terms, the greater the fractal dimension, the more complex and irregular the cell nucleus.
 
