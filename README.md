@@ -58,7 +58,7 @@ After the brief explanation given above about Machine Learning, the next section
 
 #### Explanation of Dataset Attributes
 
-For supervised classification learning, we will use the '(Breast Cancer Wisconsin) [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data]' dataset. However, first, we will understand the attributes of this dataset and how they contribute to the problem at hand.
+For supervised classification learning, we will use the '[Breast Cancer Wisconsin](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)' dataset. However, first, we will understand the attributes of this dataset and how they contribute to the problem at hand.
 
 * **id**: instance identifier;
 
