@@ -52,7 +52,13 @@ Another possible definition for **Machine Learning** is an algorithm that respon
 
 After the brief explanation given above about Machine Learning, the next sections will explain the attributes of the dataset and will cover each learning and some techniques used in each .ipynb file linked to this section.
 
-## Explanation of Dataset Attributes
+## Supervised Learning
+
+### Classification
+
+#### Explanation of Dataset Attributes
+
+For supervised classification learning, we will use the '(Breast Cancer Wisconsin) [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data]' dataset. However, first, we will understand the attributes of this dataset and how they contribute to the problem at hand.
 
 * **id**: instance identifier;
 
@@ -123,10 +129,15 @@ In general terms, the greater the fractal dimension, the more complex and irregu
 
 **OBS.:** It should be borne in mind that the nucleus of a cell has different and uniform shapes.
 
-## Supervised Learning
-
-### Classification
+#### Code
 
 After understanding what each attribute of our dataset means, we will now go through the Pre-Processing, Choosing a Target Attribute, Dimensionality Reduction (if necessary), Supervised Learning and finally Final Considerations sections.
 
 The previously mentioned sections will be included in the Google Colab notebook [machine-learning-classification.ipynb](https://github.com/ryann-arruda/machine-learning/blob/main/machine_learning_classification.ipynb). To see them, enter the notebook.
+
+After understanding how to implement supervised classification learning, we will now continue our studies by addressing the second type of supervised learning: regression.
+
+**NOTE:** It's important to highlight that in the next sections and in the Colab Notebooks, explanations previously made in this section will not be repeated. Therefore, only brief comments will be made on the approaches and decisions taken, while only techniques or methods not previously explained will be detailed.
+
+### Regression
+
