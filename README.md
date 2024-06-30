@@ -131,9 +131,9 @@ In general terms, the greater the fractal dimension, the more complex and irregu
 
 #### Code
 
-After understanding what each attribute of our dataset means, we will now go through the Pre-Processing, Choosing a Target Attribute, Dimensionality Reduction (if necessary), Supervised Learning and finally Final Considerations sections.
+After understanding what each attribute in our dataset means, we will now go through the steps of Pre-Processing, Choosing a Target Attribute, Dimensionality Reduction (if necessary), Supervised Learning and finally Final Considerations.
 
-The previously mentioned sections will be included in the Google Colab notebook [machine-learning-classification.ipynb](https://github.com/ryann-arruda/machine-learning/blob/main/machine_learning_classification.ipynb). To see them, enter the notebook.
+The previously mentioned steps will be included in the Google Colab notebook [machine-learning-classification.ipynb](https://github.com/ryann-arruda/machine-learning/blob/main/machine_learning_classification.ipynb). To see them, enter the notebook.
 
 After understanding how to implement supervised classification learning, we will now continue our studies by addressing the second type of supervised learning: regression.
 
@@ -141,3 +141,9 @@ After understanding how to implement supervised classification learning, we will
 
 ### Regression
 
+#### Explanation of Dataset Attributes
+
+For supervised regression learning, we will use the '[Clothes Price Prediction](https://www.kaggle.com/datasets/mrsimple07/clothes-price-prediction)' dataset. However, first we will understand the attributes of this dataset and how they contribute to the problem at hand.
+
+* **Brand**: the brand of the garment;
+* **Category**: the clothing category, such as t-shirts, jeans, dresses, jackets, sweaters, or shoes;
