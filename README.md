@@ -147,3 +147,28 @@ For supervised regression learning, we will use the '[Clothes Price Prediction](
 
 * **Brand**: the brand of the garment;
 * **Category**: the clothing category, such as t-shirts, jeans, dresses, jackets, sweaters, or shoes;
+* **Color**: the color of the clothing item, selected from a range of colors including Red, Blue, Green, Yellow, Black, and White;
+* **Size**: the size of the clothing item, represented as XS, S, M, L, XL, or XXL.
+
+    As I am Brazilian, to better understand the size, I will put the equivalence between these international sizes and those used in Brazil. However, I recommend that you investigate the equivalence between these sizes and those used in your country, if your country does not adopt these international references, to better understand this attribute.
+
+    |    | Brazil |
+    |:--:|:------:|
+    | XS |   PP   | 
+    | S  |    P   |
+    |  M |    M   |
+    |  L |    G   | 
+    | XL |   GG   |
+    |XXL |   EG   |
+
+    > **NOTE**: These equivalences were obtained from [GIANNINI](https://www.gianninishoponline.com/en/more-information/Size-conversion-charts/30/).
+
+* **Material**: the composition of the material of the garment, example: Polyester, Nylon and others.
+
+* **Price**: the price of the clothing item, measured in the local currency.
+
+#### Code
+
+After understanding what each attribute means in our dataset, similar to what was done in Classification, we will now go through the steps of Pre-processing, Choosing the Target Attribute, Dimensionality Reduction (if necessary), Supervised Learning and, finally , Final considerations.
+
+The previously mentioned steps will be included in the Google Colab notebook [machine-learning-regression.ipynb](https://github.com/ryann-arruda/machine-learning/blob/main/machine_learning_regression.ipynb). To see them, enter the notebook.
