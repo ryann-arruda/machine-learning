@@ -172,3 +172,13 @@ For supervised regression learning, we will use the '[Clothes Price Prediction](
 After understanding what each attribute means in our dataset, similar to what was done in Classification, we will now go through the steps of Pre-processing, Choosing the Target Attribute, Dimensionality Reduction (if necessary), Supervised Learning and, finally , Final considerations.
 
 The previously mentioned steps will be included in the Google Colab notebook [machine-learning-regression.ipynb](https://github.com/ryann-arruda/machine-learning/blob/main/machine_learning_regression.ipynb). To see them, enter the notebook.
+
+## Unsupervised Learning
+
+For unsupervised learning, we will use the '[Unsupervised Learning on Country Data](https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/data?select=data-dictionary.csv)' dataset. However, first, we will understand the attributes of this dataset and how they contribute to the problem at hand.
+
+### Explanation of Dataset Attributes
+
+* **country** : Country name;
+* **child_mort** :  Death of children under 5 years of age per 1000 live births;
+* **exports** : Exports of goods and services per capita as % of GDP;
